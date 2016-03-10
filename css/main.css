@@ -13,14 +13,20 @@
   background: gray;
 }
 
+
 #square1 {
   background: red;
-
+  float: left;
+  /* display: inline-block; */
+  height: 200px;
 }
 
 #square2 {
   background: blue;
-
+  /*display: inline-block;*/
+  /*float: left;*/
+  clear: right;
+  width: 200px;
 }
 
 #square3 {
